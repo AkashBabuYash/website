@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="#"><img src="/images/a.webp" alt="random"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse element" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/features.html"><h4>Features </h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About.html"><h4>About</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/job.html"><h4>Jobs</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html"><h4>Contact</h4></a>
+                    </li>
+                     <!-- Button book a demo modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                     data-bs-target="#bookademoModal" style="height:50px ;width:200px; margin-top:30px;">
+                     Book a demo
+                 </button>
+
+                 <!-- book a demo -->
+                 <div class="modal fade" id="bookademoModal" tabindex="-1" aria-labelledby="bookademoModalLabel"
+                     aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h1 class="modal-title fs-5" id="exampleModalLabel">Get in touch for a demo</h1>
+
+                             </div>
+                             <div class="modal-body">
+                                 <form action="/submit_form" method="post">
+                                     <label for="yourname">Your Name:</label><br>
+                                     <input type="text" id="yourname" name="yourname" required><br><br>
+
+                                     <label for="companyname"> Your Company Name:</label><br>
+                                     <input type="text" id="companyname" name="companyname" required><br><br>
+
+                                     <label for="email">Your Business Email:</label><br>
+                                     <input type="email" id="email" name="email" required><br><br>
+
+                                     <label for="phone">Phone Number:</label><br>
+                                     <input type="tel" id="phone" name="phone" required><br><br>
+
+                                     <label for="title">Business Title:</label><br>
+                                     <input type="text" id="title" name="title" required><br><br>
+
+
+                             </div>
+                             <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary"
+                                     data-bs-dismiss="modal">Close</button>
+                                 <button type="button" class="btn btn-secondary">Request Demo</button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                </ul>
+              
+            </div>
+            
+        </div>
+    </nav>
+    
+    
+
+
+
+
+
+
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="/images/a.webp" alt="" width="250" height="150">
+
+            </div>
+            <div class="col-6 col-md">
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Features</a></li>
+
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Prising</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resources</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact</a></li>
+                </ul>
+                <button type="button" class="btn btn-primary btn-lg btn-head">Book a Demo</button>
+
+            </div>
+            <div class="col-6 col-md">
+
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1 link-secondary text-decoration-none">Lucknow-Uttar Pradesh</li>
+                    <li class="mb-1 link-secondary text-decoration-none">schollerapp@gmail.com</li>
+                    <li class="mb-1 link-secondary text-decoration-none">+91-9005976171</li>
+                </ul>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">About Schollers</a></li>
+
+            </div>
+            <div class="col-6 col-md">
+
+                <ul class="list-unstyled text-small">
+                    <p>we're looking for talented.passionate falks to join our team.</p>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Jobs at Schollers</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+             <span class="mb-3 mb-md-0 text-body-secondary">© 2024 by Schollers</span>
+          </footer>
+      </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
